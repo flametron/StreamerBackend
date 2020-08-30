@@ -10,7 +10,7 @@ var http;
 void initialize(callback) async {
   app = Angel();
   app.get('/', (req, resp) {
-    resp.write(" Welcome Nigga");
+    resp.write(" Welcome");
   });
   http = AngelHttp(app);
 
